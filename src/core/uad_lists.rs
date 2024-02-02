@@ -233,6 +233,6 @@ mod tests {
     #[test]
     fn test_parse_json() {
         const DATA: &str = include_str!("../../resources/assets/uad_lists.json");
-        let _: Vec<Package> = serde_json::from_str(DATA).expect("Unable to parse");
+        let _: HashMap<String, Package> = serde_json::from_str(DATA).expect("Unable to parse");
     }
 }
