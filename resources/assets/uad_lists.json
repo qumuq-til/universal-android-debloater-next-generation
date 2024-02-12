@@ -37434,5 +37434,194 @@
     "neededBy": [],
     "labels": [],
     "removal": "Expert"
+  },
+  {
+    "id": "android.autoinstalls.config.xioami.mibox3",
+    "list": "Oem",
+    "description": "AutoInstalls a set of OEM apps on device setup (first boot/factory reset).",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.amazon.amazonvideo.livingroom",
+    "list": "Oem",
+    "description": "Prime video\nhttps://play.google.com/store/apps/details?id=com.amazon.amazonvideo.livingroom&hl=en&gl=US",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.google.android.speech.pumpkin",
+    "list": "Aosp",
+    "description": "PumpkinService\nHas something to speech.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "com.google.android.sss.authbridge",
+    "list": "Oem",
+    "description": "Second Screen Setup Auth Bridge\nDuring the first launch, the google api application is used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.google.android.tv",
+    "list": "Oem",
+    "description": "Live Channels\nTV tuner and watching stuff, sadly has google analytics.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  {
+    "id": "com.google.android.tv.bugreportsender",
+    "list": "Oem",
+    "description": "BugReportSender\nBug reports app.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.google.android.tv.frameworkpackagestubs",
+    "list": "Oem",
+    "description": "Activity Stub\nWeird app that is probably needed for SQLite, webview browser.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  {
+    "id": "com.google.android.youtube.tv",
+    "list": "Oem",
+    "description": "YouTube app\nhttps://play.google.com/store/apps/details?id=com.google.android.youtube.tv&hl=en_US",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.google.android.youtube.tvmusic",
+    "list": "Oem",
+    "description": "YouTube Music\nhttps://play.google.com/store/apps/details?id=com.google.android.youtube.tvmusic&hl=en&gl=US",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.mitv.download.service",
+    "list": "Oem",
+    "description": "DownloadService\nUnknown app that has many mitv frameworks.\nBut safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "com.mitv.milinkservice",
+    "list": "Oem",
+    "description": "MiLink\nMiui screen casting service.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "com.mitv.tvhome.atv",
+    "list": "Oem",
+    "description": "PatchWall\nIs it a spyware app? People recommend removing it.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.mitv.tvhome.michannel",
+    "list": "Oem",
+    "description": "Mi Channel\nSame app like a PatchWall.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.mitv.videoplayer",
+    "list": "Oem",
+    "description": "Mi TV Video Player\nIt's video player with google ads.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "com.miui.tv.analytics",
+    "list": "Oem",
+    "description": "Analytics\nWeird analytics app with a lot random stuff found in resources.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.netflix.ninja",
+    "list": "Oem",
+    "description": "Netflix app\nhttps://play.google.com/store/apps/details?id=com.netflix.ninja&hl=en_US",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.xiaomi.android.tvsetup.partnercustomizer",
+    "list": "Oem",
+    "description": "SetupCustomizer\nOn first boot setup installs bloatware.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  {
+    "id": "com.xiaomi.mitv.res",
+    "list": "Oem",
+    "description": "MiUtilRes\nLooks like mitv api.\nProbably Unsafe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  {
+    "id": "com.xm.webcontent",
+    "list": "Oem",
+    "description": "WebContent\nNeeded for messages such as 'App installing'. Also WebView.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "mitv.service",
+    "list": "Oem",
+    "description": "TvService\nHas shutdown delay.\nSafe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  {
+    "id": "tv.alphonso.alphonso_eula",
+    "list": "Oem",
+    "description": "Alphonso Recommendations\nEnhanced viewing, personalized experience of watching TV.\nMany sites recommend removing this.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
   }
 ]
